@@ -9,34 +9,34 @@ h1{
 	color: white;
 	font-size: 80px;
 	font-style: italic;
-	margin-left: 50px;
-    margin-top:50px;
-    font-family: 'Lobster', cursive;
+	padding:  50px;
+        font-family: 'Lobster', cursive;
 	
 }
 
-.top-page{
-	background: url("/img/top.jpg") no-repeat  0 -30px;
+.page-title{
+	background: url("/img/top.jpg") no-repeat  0% 30%;
 	background-size: cover; 
-	height: 200px;
-    overflow: hidden;
+	height: auto;
+        overflow: hidden;
+        padding:  50px;
 
 	
 }
-.flexbox-container{
+.page-content{
 	width: 100%;
 	display: flex;
 	width: 100%;
 }
 .sidebar{
 	order: 1;
-    flex: 1;
-    background-color: yellow;
-    flex-basis: 50px;
-    padding: .5rem;
-    font-family: 'Lobster', cursive;
+        flex: 1;
+        background-color: yellow;
+        flex-basis: 50px;
+        padding: .5rem;
+        font-family: 'Lobster', cursive;
 }
-.sidebar li{
+.sidebar-item{
 	list-style: none;
 	color:black;
 	font-size: 30px;
@@ -45,37 +45,31 @@ h1{
 
 .main{
     
-    order: 1;
-    flex: 5;
-    background-color: green;
-    padding: .5rem;
-    width: auto;
-    height: auto;
+        order: 1;
+        flex: 5;
+        background-color: green;
+        padding: .5rem;
+        width: auto;
+        height: auto;
 }
-.main img{
-	display: flex;
-	margin-left:auto;
-	margin-right: auto;
-	$a: 600px;
-	$b: 500px;
-	max-width: 100%;
-    left: calc(50vw - #{$a/$b/2*100vh});
-    width: $a/$b*100vh;
-    height: 100vh;
-    @media (max-aspect-ratio: #{$a}/#{$b}) {
-    top: calc(50vh - #{$b/$a/2*100vw});
-    left: 0;
-    width: 100vw;
-    height: $b/$a*100vw;
+.rustam-photo{
+        display: block;
+        margin: 0 auto;
+	width:  500px;
+	height:  350px;
+    
+    top: calc(50% - 2em); 
+    left: calc(50% - 2.5em);
+    
+
 
 }
-
-}
- .text{
+.rustam-about-text{
 	color: black;
 	font-size: 25px;
-    font-family: 'Lobster', cursive;
-    letter-spacing: 0.1em;
+        font-family: 'Lobster', cursive;
+        text-indent: 1.5em; 
+        text-align: center; 
 
 
 }
@@ -86,7 +80,7 @@ footer{
 
 
 }
-footer .bottom p {
+footer .footer p {
 	text-align: center;	}
 
 @media screen and (min-device-width: 1600px) {
@@ -101,7 +95,10 @@ footer .bottom p {
     .sidebar{ display: none; }
 }
 a{
-    color:white;
-    font-size: 25px;
+        color:white;
+        font-size: 25px;
 
 }
+
+ .rustam-site-mazito {
+        text-align: center;}
