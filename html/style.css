@@ -44,21 +44,33 @@ h1{
     	padding: .5rem;
     	width: auto;
     	height: auto;
-}
-.rustam-photo{
-    	display: block;
-   	    margin: 0 auto;
-		width: 80%;
-		height: auto;
-	    padding-top: calc((1 / (16 / 9) * 80%));
 
-	}
+}
+.aspect-ratio-boxes{
+	margin: 0 auto;
+	position: relative;
+	width: 80%;
+    padding-bottom: 75%;
+}
+ .rustam-photo{
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+
+
+
+
+
 .rustam-about-text{
 	color: black;
 	font-size: 25px;
-    	font-family:  'Noto Serif', serif;
+    font-family:  'Noto Serif', serif;
     	text-indent: 1.5em;
     	text-align: center;
+
+
 }
 
 
