@@ -1,5 +1,6 @@
 body{
     background-color: gray;
+    box-sizing: border-box;
     margin: 0;
     width: 100%;
 }
@@ -7,20 +8,20 @@ h1{
     color: white;
     font-size: 50px;
     font-style: italic;
-    padding:  50px;
     font-family:  'Noto Serif', serif;
 }
 .page-title{
-    background: url("/img/top.jpg") no-repeat  0% 30%;
+    background: url("/img/top.jpg") no-repeat 100% 0%;
     background-size: cover;
     height: auto;
     overflow: hidden;
-    padding:  50px;
+    padding:  100px;
 }
 .page-content{
     width: 100%;
     display: flex;
     width: 100%;
+
 }
 .sidebar{
     order: 1;
@@ -45,25 +46,29 @@ h1{
     width: auto;
     height: auto;
 }
-.aspect-ratio-boxes{
+.aspect-ratio-box{
     margin: 0 auto;
-    position: relative;
     width: 80%;
+
+}
+.aspect-ratio-box__photo{
+    position: relative;
+    width: 100%;
     padding-bottom: 75%;
 }
- .rustam-photo{
+ .aspect-ratio-box__content{
     margin: 0 auto;
     position: absolute;
     width: 100%;
 }
-.rustam-about-text{
+.text-about{
     color: black;
     font-size: 25px;
     font-family:  'Noto Serif', serif;
     text-indent: 1.5em;
     text-align: center;
 }
-.footer__page{
+.footer-page{
     background-size: 100%;
     height: auto;
     text-align: center;	}
