@@ -1,8 +1,7 @@
-body {
-    background-color: gray;
-    box-sizing: border-box;
+body, body * {
     margin: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 h1 {
     color: white;
@@ -70,6 +69,7 @@ h1 {
     text-align: center;
 }
 .footer-page {
+    background-color: gray;
     background-size: 100%;
     height: auto;
     text-align: center;
