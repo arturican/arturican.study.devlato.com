@@ -1,6 +1,8 @@
-body, body * {
+body {
     margin: 0;
     width: 100%;
+}
+body, body * {
     box-sizing: border-box;
 }
 h1 {
