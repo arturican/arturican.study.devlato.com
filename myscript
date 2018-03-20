@@ -1,0 +1,4 @@
+#!/bin/bash
+# copy file
+ scp -r  . arturican@arturican.study.devlato.com root@arturican.study.devlato.com:/var/www/arturican.study.devlato.com/
+
