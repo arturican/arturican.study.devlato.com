@@ -1,5 +1,5 @@
 #!/bin/bash
 # copy file
- tar cvpjf arturican.tar.bz2 ../arturican.study.devlato.com/ --exclude .git  
+ tar cvpjf arturican.tar.bz2 . --exclude .git  
  scp   -r  arturican.tar.bz2 root@arturican.study.devlato.com:/var/www/  
  ssh  root@arturican.study.devlato.com tar xvf /var/www/arturican.tar.bz2 -C /var/www/ 
