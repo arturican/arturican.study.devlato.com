@@ -2,4 +2,4 @@
 # copy file
  tar cvpjf arturican.tar.bz2 . --exclude .git  
  scp   -r  arturican.tar.bz2 root@arturican.study.devlato.com:/tmp/ 
- ssh  root@arturican.study.devlato.com tar xvf /tmp/arturican.tar.bz2 -C /var/www/ 
+ ssh  root@arturican.study.devlato.com tar xvf /tmp/arturican.tar.bz2 -C /var/www/arturican.study.devlato.com 
