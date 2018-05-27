@@ -1,18 +1,63 @@
-.color-main{
-  color: #ff3300;
+.palette-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.color--main{
+  background-color: #ff9900;
+  vertical-align: middle;
+  line-height: normal;
+
 }
 .color--main-background{
-  background: #66ff99;
+  background-color: #ffd6cc;
+  vertical-align: middle;
+  line-height: normal;
 }
-.color--border{
-  border-color: #808080;
+
+.color--border {
+  background-color: #808080;
+  vertical-align: middle;
+  line-height: normal;
 }
+
 .color--text{
-  color: #000000;
+  background-color: black;
+  vertical-align: middle;
+  line-height: normal;
 }
+
 .color--background{
-  background-color:#e6ffe6
+  background-color:#e6ffe6;
+  vertical-align: middle;
+  line-height: normal;
 }
+
 .color--second{
-  color: #ffff66;
+  background-color: #ffff66;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.size-palette{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.text {
+  display: inline-block;
+  padding: 15px;
+}
+
+p {
+  font-size: 40px;
+}
+
+li{
+  list-style-type: none;
+  vertical-align: middle;
+  line-height: 2;
+  padding: 10px;
 }
