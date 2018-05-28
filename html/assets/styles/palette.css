@@ -6,52 +6,42 @@
 
 .color--main{
   background-color: #ff9900;
-  vertical-align: middle;
-  line-height: normal;
-
 }
+
 .color--main-background{
   background-color: #ffd6cc;
-  vertical-align: middle;
-  line-height: normal;
 }
 
 .color--border {
   background-color: #808080;
-  vertical-align: middle;
-  line-height: normal;
 }
 
 .color--text{
   background-color: black;
-  vertical-align: middle;
-  line-height: normal;
 }
 
 .color--background{
   background-color:#e6ffe6;
-  vertical-align: middle;
-  line-height: normal;
 }
 
 .color--second{
   background-color: #ffff66;
-  vertical-align: middle;
-  line-height: normal;
 }
 
 .size-palette{
   display: inline-block;
   width: 80px;
   height: 80px;
+  vertical-align: middle;
+  line-height: normal;
 }
 
-.text {
+.text{
   display: inline-block;
   padding: 15px;
 }
 
-p {
+p{
   font-size: 40px;
 }
 
@@ -60,4 +50,9 @@ li{
   vertical-align: middle;
   line-height: 2;
   padding: 10px;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
 }
