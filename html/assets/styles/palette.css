@@ -1,0 +1,58 @@
+.palette-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.color--main{
+  background-color: #ff9900;
+}
+
+.color--main-background{
+  background-color: #ffd6cc;
+}
+
+.color--border {
+  background-color: #808080;
+}
+
+.color--text{
+  background-color: black;
+}
+
+.color--background{
+  background-color:#e6ffe6;
+}
+
+.color--second{
+  background-color: #ffff66;
+}
+
+.size-palette{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.text{
+  display: inline-block;
+  padding: 15px;
+}
+
+p{
+  font-size: 40px;
+}
+
+li{
+  list-style-type: none;
+  vertical-align: middle;
+  line-height: 2;
+  padding: 10px;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
