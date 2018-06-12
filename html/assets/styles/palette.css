@@ -1,9 +1,11 @@
-.palette-list {
+.container{
   margin-left: auto;
   margin-right: auto;
   width: 600px;
 }
-
+.palette-list{
+  width: 100%;
+}
 .color--main{
   background-color: #ff9900;
 }
@@ -56,11 +58,11 @@ h1{
   font-size: 40px;
   text-align: center;
 }
-.text-size{
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
+
+.font-size {
+  width: 100%;
 }
+
 .text--xxl{
   font-size: 36px;
   font-family: Helvetica;
