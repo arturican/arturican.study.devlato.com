@@ -1,9 +1,11 @@
-.palette-list {
+.container{
   margin-left: auto;
   margin-right: auto;
   width: 600px;
 }
-
+.palette-list{
+  width: 100%;
+}
 .color--main{
   background-color: #ff9900;
 }
@@ -55,4 +57,76 @@ li{
 h1{
   font-size: 40px;
   text-align: center;
+}
+
+.font-size {
+  width: 100%;
+}
+
+.text--xxl{
+  font-size: 36px;
+  font-family: Helvetica;
+}
+
+.text--xl{
+  font-size: 24px;
+  font-family: Helvetica;
+}
+.text--m{
+  font-size: 18px;
+  font-family: Helvetica;
+}
+.text--s{
+  font-size: 14px;
+  font-family: Helvetica;
+}
+.text--xs{
+  font-size: 11px;
+  font-family: Helvetica;
+}
+.padding{
+  width: 100%;
+}
+.padding--xxl{
+  padding: 64px;
+  background-color: red;
+}
+.padding--xl{
+  padding: 32px;
+  background-color: green;
+}
+.padding--m{
+  padding: 16px;
+  background-color: red;
+}
+.padding--s{
+  padding: 8px;
+  background-color: green;
+}
+.padding--xs{
+  padding: 4px;
+  background-color: red;
+}
+.margin{
+  width: 100%;
+}
+.margin--xxl{
+  margin: 64px;
+  background-color: blue;
+}
+.margin--xl{
+  margin: 32px;
+  background-color: yellow;
+}
+.margin--m{
+  margin: 16px;
+  background-color: blue;
+}
+.margin--s{
+  margin: 8px;
+  background-color: yellow;
+}
+.margin--xs{
+  margin: 4px;
+  background-color: blue;
 }
