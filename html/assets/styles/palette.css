@@ -89,34 +89,44 @@ h1{
 }
 .padding--xxl{
   padding: 64px;
+  background-color: red;
 }
 .padding--xl{
   padding: 32px;
+  background-color: green;
 }
 .padding--m{
   padding: 16px;
+  background-color: red;
 }
 .padding--s{
   padding: 8px;
+  background-color: green;
 }
 .padding--xs{
   padding: 4px;
+  background-color: red;
 }
 .margin{
   width: 100%;
 }
 .margin--xxl{
   margin: 64px;
+  background-color: blue;
 }
 .margin--xl{
   margin: 32px;
+  background-color: yellow;
 }
 .margin--m{
   margin: 16px;
+  background-color: blue;
 }
 .margin--s{
   margin: 8px;
+  background-color: yellow;
 }
 .margin--xs{
   margin: 4px;
+  background-color: blue;
 }
